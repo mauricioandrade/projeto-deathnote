@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Note</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        
+        <div class="shinigamis">
+            <div class="cartoes-shinigami">
+                <div class="cartao-shinigami tipo-shinigami aberto" id="cartao-ryuuk">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Ryuk</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Shinigami</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/ryuuk.png" alt="ryuuk" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Um shinigami que ficou entediado no mundo dos ceifeiros, com isso ele resolveu jogar o
+                                seu Death Note no mundo dos humanos, quando Light Yagami o encontra e isso faz com que
+                                ele o acompanhe na sua jornada para se tornar o suposto "Deus".</p>
+                                
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+                <div class="cartao-shinigami tipo-deus" id="cartao-light">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Light Yagami</h2>
+                            <span>#002</span>
+                        </div>
+
+                        <span class="tipo">Deus</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/light.png" alt="light" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Seu anseio em mudar o mundo, trouxe um disturbio de justiça divina, transformando ele em um serial killer, onde os seus ideais eram o verdadeiro senso de justiça. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-shinigami tipo-detetive" id="cartao-l">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">L</h2>
+                            <span>#003</span>
+                        </div>
+
+                        <span class="tipo">Detetive</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/l.png" alt="l" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>O maior detetive de todos os tempos, foi para o japão para tentar desvendar o caso Kira. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <nav class="listagem ">
+                <ul>
+                    <li class="shinigami ativo" id="ryuuk">
+                        <img src="./src/imagens/ryuuk.png" alt="ryuuk">
+                        <span>Ryuk</span>
+                    </li>
+                    <li class="shinigami" id="light">
+                        <img src="./src/imagens/light.png" alt="light">
+                        <span>Light Yagami</span>
+                    </li>
+                    <li class="shinigami" id="l">
+                        <img src="./src/imagens/l.png" alt="l">
+                        <span>L</span>
+                    </li>
+                </ul>
+                <audio controls autoplay loop>
+                    <source src="./src/audio/deathnote.mp3" type="audio/mp3">
+                </audio>
+            </nav>
+            
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+    
+
+</body>
+
+</html>
